@@ -1,4 +1,5 @@
-class Solution {
+// Approach 1:
+    class Solution {
     Map<Integer, Boolean> memo = new HashMap<>();
 
     // Determine if the prefix array nums[0 ~ i] has a valid partition
@@ -31,7 +32,7 @@ class Solution {
 }
 
 
-
+// Approach 2:
 class Solution {
     public boolean validPartition(int[] nums) {
         int n = nums.length;
